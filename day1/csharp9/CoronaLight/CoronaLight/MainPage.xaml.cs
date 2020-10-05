@@ -1,5 +1,6 @@
 ﻿using CoronaLight.ViewModels;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
 using System;
@@ -7,6 +8,7 @@ using System;
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
+#nullable enable
 namespace CoronaLight
 {
     /// <summary>
@@ -17,13 +19,13 @@ namespace CoronaLight
         private IServiceScope? _scope;
         public MainPage()
         {
-            if (App.Current is App app)
+            if (Application.Current is App app)
             {
                 _scope = app.Services.CreateScope();
             }
             else
             {
-                throw new InvalidOperationException("app is not app");
+                throw new InvalidOperationException("App is not App!!");
             }
             ViewModel = _scope.ServiceProvider.GetRequiredService<MainPageViewModel>();
             this.InitializeComponent();
@@ -38,3 +40,5 @@ namespace CoronaLight
         }
     }
 }
+
+#nullable restore
