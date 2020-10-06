@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30524.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIWithDockerAndHelm", "WebAPIWithDockerAndHelm\WebAPIWithDockerAndHelm.csproj", "{7F0EE841-C0D6-4EB8-B186-C03300CCAE38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F0EE841-C0D6-4EB8-B186-C03300CCAE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0EE841-C0D6-4EB8-B186-C03300CCAE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0EE841-C0D6-4EB8-B186-C03300CCAE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0EE841-C0D6-4EB8-B186-C03300CCAE38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7920C4A5-57C2-4C2E-87CD-CD16EEA79AF2}
+	EndGlobalSection
+EndGlobal
