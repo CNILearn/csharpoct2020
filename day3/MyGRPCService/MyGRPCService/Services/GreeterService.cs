@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyGRPCService
 {
+    // this is a change for git
     public class GreeterService : Greeter.GreeterBase
     {
         private readonly ILogger<GreeterService> _logger;
